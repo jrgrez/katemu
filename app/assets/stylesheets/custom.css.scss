@@ -2,3 +2,59 @@
 *= require bootstrap
 */
 @import "bootstrap";
+
+html{
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  background-color: #e17600;
+}
+
+body{
+  overflow-y: scroll;
+}
+
+header{
+  margin: 0px;
+  width: auto;
+
+  nav.navbar.navbar-default{
+    margin: 0px;
+    background-color: #ffffff;
+
+    img{
+          width: 25%;
+          height: 50%;
+          margin-left: 20px;
+    }
+
+    div.collapse.navbar-collapse{
+      margin: 0px;
+      width: 100px;
+      height: 100px;
+
+    }
+
+    ul.nav.pull-right{
+      position: relative;
+      margin: 27px;
+    }
+
+  }
+}
+
+footer.footer{
+  width: 100%;
+  height: 40px;
+  position: absolute;
+  bottom: 0px;
+
+  small{
+      text-align: center;
+  }
+}
+
+
+
+
+
