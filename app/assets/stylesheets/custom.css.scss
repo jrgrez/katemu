@@ -12,39 +12,58 @@ html{
 body{
   overflow-y: scroll;
   width: 100%;
-
   header{
     margin: 0px;
     width: auto;
-
     nav.navbar.navbar-default{
       margin: 0px;
       background-color: #ffffff;
-
+      border-bottom: 0px;
       img#logo{
         width: 25%;
         height: 50%;
-        margin-left: 20px;
+        margin-left: 50px;
       }
-
       div.btn-group.pull-right{
-        margin-top: 34px;
-        margin-right: 100px;
-        display: block;
-
+        margin-top: 15px;
+        margin-right: 50px;
+        button.btn.btn-default.dropdown-toggle{
+          border: none;
+          background: transparent;
+            span.glyphicon.glyphicon-align-justify{
+              margin: auto;
+              zoom: 3;
+              color: #e17600;
+            }
+        }
       }
-
+      div.btn-group.pull-right.open{
+        ul.dropdown-menu{
+          li{
+              font-size: 20px;
+              padding: 5px;
+            a{
+              &:hover{
+                background: #e17600;
+                color: #ffffff;
+              }
+            }
+          }
+        }
+      }
       ul.nav.pull-right{
         position: relative;
         margin: 27px;
-
       }
-
     }
   }
 
   div.container{
+      max-width: 100%;
       width: 100%;
+      border: 0px;
+      margin: 0px;
+      padding: 0px;
 
       button.btn.btn-default{
           display: none;
@@ -62,16 +81,35 @@ body{
 
       img#webhome{
         width: 100%;
+        height: auto;
+        position: absolute;
       }
 
       div.panel.panel-primary{
 
           height: 100%;
-          width: auto;
-          margin-right: auto;
-          margin-left: auto;
+          width: 475px;
+          margin: auto;
+          margin-top: 50px;
           display: block;
+          border-color: #e17600;
 
+        div.panel-heading{
+          text-align: center;
+          background-color: #e17600;
+          border-color: #e17600;
+          font-size: 20px;
+          font-weight: bold;
+
+        }
+
+        ul{
+
+          li{
+            margin: 10px;
+          }
+
+        }
 
       }
 
