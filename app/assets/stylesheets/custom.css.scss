@@ -27,16 +27,17 @@ header{
           margin-left: 20px;
     }
 
-    div.collapse.navbar-collapse{
-      margin: 0px;
-      width: 100px;
-      height: 100px;
+    div.btn-group.pull-right{
+      margin-top: 34px;
+      margin-right: 100px;
+      display: block;
 
     }
 
     ul.nav.pull-right{
       position: relative;
       margin: 27px;
+
     }
 
   }
@@ -88,15 +89,62 @@ div.container{
 @media screen and (max-device-width: 320px){
 
   html{
-    width: 320px;
-    height: 480px;
+    width: 100%;
+    height: 100%;
   }
 
   body{
     -webkit-text-size-adjust:none;
     font-family:Helvetica, Arial, Verdana, sans-serif;
-    padding:5px;
+    padding:0px;
+
+    div.container{
+
+      img{
+        display: none;
+      }
+
+    }
+
   }
+
+  header{
+
+    nav.navbar.navbar-default{
+
+      img{
+        margin: 0px;
+        width: 90%;
+      }
+
+      div.btn-group.pull-right{
+
+        display: none;
+
+        button.btn.btn-default.dropdown-toggle{
+          display: none;
+        }
+
+      }
+
+    }
+
+  }
+
+
+  footer.footer{
+
+      height: 40px;
+
+    small{
+      a{
+        margin-top: 12px;
+      }
+    }
+
+  }
+
+
 
   div{
     clear:both!important;
@@ -144,15 +192,14 @@ div.container{
       background-color: #ffffff;
 
       img{
-        width: 12.5%;
+        width: 90%;
         height: 25%;
+        margin-top: 20px;
         margin-left: 20px;
       }
 
       div.collapse.navbar-collapse{
         margin: 0px;
-        width: 100px;
-        height: 100px;
 
       }
 
@@ -166,25 +213,25 @@ div.container{
 
 }
 
-/* Mobile Landscape */
+/* Mobile Landscape
 @media only screen and (min-width: 480px) and (max-width: 767px) {
   avatar {
-    /* ... */
+
     width: 140px;
     height: 197px;
     background: url('/assets/dfp/medium.jpg');
   }
-}
+}*/
 
-/* Mobile portrait */
+/*
 @media only screen and (max-width: 479px) {
   avatar {
-    /* ... */
+
     width: 60px;
     height: 85px;
     background: url('/assets/dfp/small.jpg');
   }
-}
+}*/
 
 
 
