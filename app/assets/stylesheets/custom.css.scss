@@ -11,46 +11,70 @@ html{
 
 body{
   overflow-y: scroll;
-}
-
-header{
-  margin: 0px;
-  width: auto;
-
-  nav.navbar.navbar-default{
-    margin: 0px;
-    background-color: #ffffff;
-
-    img{
-          width: 25%;
-          height: 50%;
-          margin-left: 20px;
-    }
-
-    div.btn-group.pull-right{
-      margin-top: 34px;
-      margin-right: 100px;
-      display: block;
-
-    }
-
-    ul.nav.pull-right{
-      position: relative;
-      margin: 27px;
-
-    }
-
-  }
-}
-
-footer.footer{
   width: 100%;
-  height: 64px;
-  position: absolute;
-  bottom: 0px;
-  background-color: #A2A2A4;
 
-  small{
+  header{
+    margin: 0px;
+    width: auto;
+
+    nav.navbar.navbar-default{
+      margin: 0px;
+      background-color: #ffffff;
+
+      img#logo{
+        width: 25%;
+        height: 50%;
+        margin-left: 20px;
+      }
+
+      div.btn-group.pull-right{
+        margin-top: 34px;
+        margin-right: 100px;
+        display: block;
+
+      }
+
+      ul.nav.pull-right{
+        position: relative;
+        margin: 27px;
+
+      }
+
+    }
+  }
+
+  div.container{
+      width: 100%;
+
+      button.btn.btn-default{
+          display: none;
+      }
+
+      iframe{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      img#iphonehome{
+        display: none;
+      }
+
+      img#webhome{
+        width: 100%;
+      }
+
+    }
+
+
+  footer.footer{
+    width: 100%;
+    height: 64px;
+    position: absolute;
+    bottom: 0px;
+    background-color: #A2A2A4;
+
+    small{
       text-align: center;
       margin: auto;
       display: block;
@@ -62,26 +86,11 @@ footer.footer{
         color: #ffffff;
         text-decoration: none;
       }
-  }
-}
-
-div.container{
-
-  width: 100%;
-
-  iframe{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    }
   }
 
-  img{
-    width: 100%;
-    position: absolute;
-  }
 
 }
-
 
 /*------------------------------------*\
     $IPHONE
@@ -89,62 +98,111 @@ div.container{
 @media screen and (max-device-width: 320px){
 
   html{
-    width: 100%;
-    height: 100%;
+    width: auto;
+    height: auto;
   }
 
   body{
+
+    width: 100%;
+    height: 100%;
     -webkit-text-size-adjust:none;
     font-family:Helvetica, Arial, Verdana, sans-serif;
     padding:0px;
 
     div.container{
 
-      img{
+      background: none;
+
+      img#webhome{
         display: none;
+      }
+
+      img#iphonehome{
+        display: block;
+        height:auto;
+      }
+
+      div.botonesinicio{
+
+        position: absolute;
+        top: 153px;
+
+      button.btn.btn-default{
+        height: 90px;
+        width: 250px;
+        margin: 10px auto 20px auto;
+        border-radius: 20px;
+        display: block;
+        background: transparent;
+
+
+        a{
+          text-decoration: none;
+          font-size: 23px;
+        }
+      }
+      }
+
+      iframe{
+        width: auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        overflow-y: hidden;
+        bottom: 0px;
       }
 
     }
 
-  }
+    header{
 
-  header{
+      height: auto;
 
-    nav.navbar.navbar-default{
+      nav.navbar.navbar-default{
 
-      img{
         margin: 0px;
-        width: 90%;
-      }
 
-      div.btn-group.pull-right{
+        img#logo{
+          margin: auto;
+          display: block;
+          width: 90%;
+        }
 
-        display: none;
+        div.btn-group.pull-right{
 
-        button.btn.btn-default.dropdown-toggle{
           display: none;
+
+          button.btn.btn-default.dropdown-toggle{
+            display: none;
+          }
+
         }
 
       }
 
     }
 
-  }
-
-
-  footer.footer{
+    footer.footer{
 
       height: 40px;
+      position: relative;
+      bottom: 0px;
+      margin: 0px;
 
-    small{
-      a{
-        margin-top: 12px;
+      small{
+        height: auto;
+        margin: auto;
+
+        a{
+          margin: 10px auto 10px auto;
+          display: block;
+        }
       }
+
     }
 
   }
-
-
 
   div{
     clear:both!important;
@@ -176,42 +234,8 @@ div.container{
     display:block;
   }
 
-  img{
-    max-width:100%;
-    height:auto;
-  }
-
-
-  header{
-    margin: 0px;
-    width: 320px;
-    height: 60px;
-
-    nav.navbar.navbar-default{
-      margin: 0px;
-      background-color: #ffffff;
-
-      img{
-        width: 90%;
-        height: 25%;
-        margin-top: 20px;
-        margin-left: 20px;
-      }
-
-      div.collapse.navbar-collapse{
-        margin: 0px;
-
-      }
-
-      ul.nav.pull-right{
-        position: relative;
-        margin: 27px;
-      }
-
-    }
-  }
-
 }
+
 
 /* Mobile Landscape
 @media only screen and (min-width: 480px) and (max-width: 767px) {
