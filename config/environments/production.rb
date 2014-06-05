@@ -79,5 +79,8 @@ Katemu::Application.configure do
   config.log_formatter = ::Logger::Formatter.new
 
   config.assets.compile=true
+  config.cache_classes = true
+  config.serve_static_assets = true
+  config.assets.digest = true
 
 end

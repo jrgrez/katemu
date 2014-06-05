@@ -17,6 +17,7 @@
     <file path="/home.html.erb" changelist="1cf3c61e-e7ff-46d3-8341-be6da31c7be0" time="1401983309301" ignored="false" />
     <file path="/iPhone.css.scss" changelist="1cf3c61e-e7ff-46d3-8341-be6da31c7be0" time="1401903959495" ignored="false" />
     <file path="/application_controller.rb" changelist="1cf3c61e-e7ff-46d3-8341-be6da31c7be0" time="1401909894694" ignored="false" />
+    <file path="/production.rb" changelist="1cf3c61e-e7ff-46d3-8341-be6da31c7be0" time="1401984931292" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +51,7 @@
       <file leaf-file-name="production.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="80" column="28" selection-start="3275" selection-end="3275" vertical-scroll-proportion="0.84713376">
+            <state line="81" column="0" selection-start="3276" selection-end="3276" vertical-scroll-proportion="0.87261146">
               <folding />
             </state>
           </provider>
@@ -881,7 +882,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="80" column="28" selection-start="3275" selection-end="3275" vertical-scroll-proportion="0.84713376">
+        <state line="81" column="0" selection-start="3276" selection-end="3276" vertical-scroll-proportion="0.87261146">
           <folding />
         </state>
       </provider>
