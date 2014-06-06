@@ -21,6 +21,7 @@ module Katemu
     # config.i18n.default_locale = :de
 
     config.assets.precompile += %w(*.png *.jpg *.jpeg *.gif)
+    config.assets.version = '1.1'
     config.serve_static_assets = true
 
   end
