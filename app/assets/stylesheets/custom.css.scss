@@ -154,7 +154,7 @@ body{
 }
 
 /*------------------------------------*\
-    $IPHONE
+    $IPHONE 4
 \*------------------------------------*/
 @media screen and (max-device-width: 320px){
 
@@ -264,6 +264,11 @@ body{
           display: block;
           width: 90%;
         }
+
+        h2{
+          display: none;
+        }
+
 
         div.btn-group.pull-right{
 
