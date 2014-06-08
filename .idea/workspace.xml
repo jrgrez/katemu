@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="1cf3c61e-e7ff-46d3-8341-be6da31c7be0" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="katemu.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -48,7 +47,7 @@
       <file leaf-file-name="custom.css.scss" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="200" column="19" selection-start="3371" selection-end="3371" vertical-scroll-proportion="0.3057325">
+            <state line="364" column="35" selection-start="6135" selection-end="6135" vertical-scroll-proportion="-0.35031846">
               <folding />
             </state>
           </provider>
@@ -917,7 +916,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="200" column="19" selection-start="3371" selection-end="3371" vertical-scroll-proportion="0.3057325">
+        <state line="364" column="35" selection-start="6135" selection-end="6135" vertical-scroll-proportion="-0.35031846">
           <folding />
         </state>
       </provider>
