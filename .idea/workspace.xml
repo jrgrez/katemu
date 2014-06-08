@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1cf3c61e-e7ff-46d3-8341-be6da31c7be0" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss" />
     </list>
     <ignored path="katemu.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -11,7 +11,7 @@
     <file path="/help.html.erb" changelist="1cf3c61e-e7ff-46d3-8341-be6da31c7be0" time="1402003615435" ignored="false" />
     <file path="/application.html.erb" changelist="1cf3c61e-e7ff-46d3-8341-be6da31c7be0" time="1402270824882" ignored="false" />
     <file path="/application_helper.rb" changelist="1cf3c61e-e7ff-46d3-8341-be6da31c7be0" time="1401887231718" ignored="false" />
-    <file path="/custom.css.scss" changelist="1cf3c61e-e7ff-46d3-8341-be6da31c7be0" time="1402262764089" ignored="false" />
+    <file path="/custom.css.scss" changelist="1cf3c61e-e7ff-46d3-8341-be6da31c7be0" time="1402271416757" ignored="false" />
     <file path="/application.css" changelist="1cf3c61e-e7ff-46d3-8341-be6da31c7be0" time="1401888314878" ignored="false" />
     <file path="/_header.html.erb" changelist="1cf3c61e-e7ff-46d3-8341-be6da31c7be0" time="1402073729140" ignored="false" />
     <file path="/_footer.html.erb" changelist="1cf3c61e-e7ff-46d3-8341-be6da31c7be0" time="1401910805022" ignored="false" />
@@ -44,10 +44,10 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="custom.css.scss" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="custom.css.scss" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="197" column="19" selection-start="3336" selection-end="3336" vertical-scroll-proportion="0.0">
+            <state line="245" column="26" selection-start="4310" selection-end="4310" vertical-scroll-proportion="0.7735537">
               <folding />
             </state>
           </provider>
@@ -80,10 +80,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.html.erb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="application.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="18" selection-start="1278" selection-end="1278" vertical-scroll-proportion="0.74482757">
+            <state line="13" column="17" selection-start="401" selection-end="401" vertical-scroll-proportion="-4.48">
               <folding />
             </state>
           </provider>
@@ -158,8 +158,8 @@
         <option value="$PROJECT_DIR$/app/views/static_pages/form.html.erb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/Gemfile" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss" />
       </list>
     </option>
   </component>
@@ -279,6 +279,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="katemu" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="katemu" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="stylesheets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -776,13 +798,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="197" column="19" selection-start="3336" selection-end="3336" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/images/startup-image.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -805,7 +820,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="18" selection-start="1278" selection-end="1278" vertical-scroll-proportion="0.74482757">
+        <state line="13" column="17" selection-start="401" selection-end="401" vertical-scroll-proportion="-4.48">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="245" column="26" selection-start="4310" selection-end="4310" vertical-scroll-proportion="0.7735537">
           <folding />
         </state>
       </provider>
