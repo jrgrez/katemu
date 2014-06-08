@@ -1,7 +1,7 @@
 <% provide(:title, 'Formulario') %>
 
   <% if current_user %>
-      Signed in as <strong><%= current_user.name %></strong>!
+
       <%= link_to "Sign out", signout_path, id: "sign_out" %>
 
       <iframe src="https://docs.google.com/a/katemu.cl/forms/d/1MejtRv4t9dNBjc4Wg9MKEIuYjSL6wk2SRqBd_u-4Rcs/viewform?embedded=true"

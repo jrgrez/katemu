@@ -42,9 +42,6 @@ body{
 
         position: absolute;
         margin: 0;
-        top: 0px;
-        width: 419px;
-        height: 33px;
         top: 35px;
         left: 460px;
 
@@ -127,9 +124,18 @@ body{
 
       a{
         img#signingoogle{
-          position: absolute;
-          left: 200px;
+          position: relative;
+          margin-top: 195px;
+          margin-left: 495px;
+          height: 56px;
+          width: auto;
+
         }
+      }
+
+      a#sign_out{
+        float: right;
+        margin-right: 57px;
       }
 
     }
