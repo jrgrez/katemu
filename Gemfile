@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 ruby '2.0.0'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.0.5'
+gem 'rails', '=4.0.5'
 gem 'bootstrap-sass', '~> 3.0.0.0.rc2'
 gem 'sprockets', '2.11.0'
 

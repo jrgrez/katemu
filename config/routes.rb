@@ -7,7 +7,6 @@ Katemu::Application.routes.draw do
   match  '/auth/:provider/callback', to:  'sessions#create', via:'get'
   match '/auth/failure', to: redirect('/home'), via: 'get'
   match '/signout', to: 'sessions#destroy', via:'get', as:'signout'
-  match '/'
 
 
   resources :sessions, only: [:create, :destroy]
