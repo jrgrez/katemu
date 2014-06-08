@@ -358,7 +358,7 @@ body{
 /*------------------------------------*\
     $IPHONE 5
 \*------------------------------------*/
-@media (max-device-height : 568px) {
+@media (min-device-height : 568px) {
 
   html{
     width: auto;
