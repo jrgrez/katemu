@@ -383,17 +383,18 @@ body{
 
       img#iphonehome{
         display: block;
-        height:347px;
+        width: auto;
+        height:435px;
       }
 
       a img#signingoogle{
-        margin: 50px 0 241px 35px;
+        margin: 91px 0 288px 35px;
       }
 
       div.botonesinicio{
 
         position: absolute;
-        top: 153px;
+        top: 186px;
         left: 75px;
 
         button.btn.btn-default{
@@ -430,8 +431,8 @@ body{
         width: 200px;
         margin-left: auto;
         margin-right: auto;
-        margin-top: 10px;
-        margin-bottom: 137px;
+        margin-top: 36px;
+        margin-bottom: 198px;
 
       }
 
@@ -440,7 +441,7 @@ body{
         button.btn.btn-default{
           display: block;
           position: absolute;
-          bottom: 116px;
+          bottom: 185px;
           left: 137px;
           background: transparent;
           border: none;
