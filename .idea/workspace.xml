@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1cf3c61e-e7ff-46d3-8341-be6da31c7be0" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/apple-touch-startup-image-640x920.png" afterPath="$PROJECT_DIR$/app/assets/images/apple-touch-startup-image-640x920.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
     </list>
     <ignored path="katemu.iws" />
@@ -10,7 +9,7 @@
     <file path="/Gemfile" changelist="1cf3c61e-e7ff-46d3-8341-be6da31c7be0" time="1402250657984" ignored="false" />
     <file path="/form.html.erb" changelist="1cf3c61e-e7ff-46d3-8341-be6da31c7be0" time="1402091627867" ignored="false" />
     <file path="/help.html.erb" changelist="1cf3c61e-e7ff-46d3-8341-be6da31c7be0" time="1402003615435" ignored="false" />
-    <file path="/application.html.erb" changelist="1cf3c61e-e7ff-46d3-8341-be6da31c7be0" time="1402339627837" ignored="false" />
+    <file path="/application.html.erb" changelist="1cf3c61e-e7ff-46d3-8341-be6da31c7be0" time="1402339902551" ignored="false" />
     <file path="/application_helper.rb" changelist="1cf3c61e-e7ff-46d3-8341-be6da31c7be0" time="1401887231718" ignored="false" />
     <file path="/custom.css.scss" changelist="1cf3c61e-e7ff-46d3-8341-be6da31c7be0" time="1402338567840" ignored="false" />
     <file path="/application.css" changelist="1cf3c61e-e7ff-46d3-8341-be6da31c7be0" time="1402329821714" ignored="false" />
@@ -103,7 +102,7 @@
       <file leaf-file-name="application.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="59" selection-start="284" selection-end="284" vertical-scroll-proportion="0.22068965">
+            <state line="9" column="60" selection-start="285" selection-end="285" vertical-scroll-proportion="0.22068965">
               <folding />
             </state>
           </provider>
@@ -851,7 +850,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="59" selection-start="284" selection-end="284" vertical-scroll-proportion="0.22068965">
+        <state line="9" column="60" selection-start="285" selection-end="285" vertical-scroll-proportion="0.22068965">
           <folding />
         </state>
       </provider>
