@@ -37,3 +37,7 @@ $("a.popup").click(function(e) {
     popupCenter($(this).attr("href"), $(this).attr("data-width"), $(this).attr("data-height"), "authPopup");
     e.stopPropagation(); return false;
 });
+
+window.addEventListener('load', function() {
+    setTimeout(scrollTo, 0, 0, 1);
+}, false);
