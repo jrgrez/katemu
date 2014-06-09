@@ -3,10 +3,10 @@ Katemu::Application.routes.draw do
   match '/home', to: 'static_pages#home', via: 'get'
   match '/form',   to: 'static_pages#form',   via: 'get'
   match '/help', to: 'static_pages#help', via: 'get'
-
   match  '/auth/:provider/callback', to:  'sessions#create', via:'get'
   match '/auth/failure', to: redirect('/home'), via: 'get'
   match '/signout', to: 'sessions#destroy', via:'get', as:'signout'
+  match '/sessions/create', to: 'static_pages#form', via:'get'
 
 
   resources :sessions, only: [:create, :destroy]
