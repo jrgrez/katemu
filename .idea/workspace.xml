@@ -48,7 +48,7 @@
       <file leaf-file-name="custom.css.scss" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="403" column="18" selection-start="6741" selection-end="6741" vertical-scroll-proportion="0.538843">
+            <state line="460" column="21" selection-start="7887" selection-end="7887" vertical-scroll-proportion="0.40661156">
               <folding />
             </state>
           </provider>
@@ -850,7 +850,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="403" column="18" selection-start="6741" selection-end="6741" vertical-scroll-proportion="0.538843">
+        <state line="460" column="21" selection-start="7887" selection-end="7887" vertical-scroll-proportion="0.40661156">
           <folding />
         </state>
       </provider>
