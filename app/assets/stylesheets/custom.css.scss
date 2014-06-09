@@ -169,7 +169,11 @@ body{
 /*------------------------------------*\
     $IPHONE 4
 \*------------------------------------*/
-@media only screen and (max-device-width: 320px){
+@media only screen
+and (max-device-width: 320px)
+and (-webkit-min-device-pixel-ratio: 2){
+
+  .retina-iphone-only{display: block}
 
   html{
     width: auto;
@@ -364,7 +368,10 @@ body{
 @media only screen
 and (device-height : 568px)
 and (device-width : 320px)
-and (-webkit-min-device-pixel-ratio: 2){
+and (-webkit-min-device-pixel-ratio: 2)
+{
+
+  .retina-iphone-only {display: block}
 
 html{
     width: auto;
