@@ -1,6 +1,7 @@
 require File.expand_path('../boot', __FILE__)
 
 require 'rails/all'
+require "sass-rails"
 
 # Require the gems listed in Gemfile, including any gems
 # you've limited to :test, :development, or :production.
@@ -23,6 +24,5 @@ module Katemu
     config.assets.precompile += %w(*.png *.jpg *.jpeg *.gif)
     config.assets.version = '1.1'
     config.serve_static_assets = true
-
   end
 end
