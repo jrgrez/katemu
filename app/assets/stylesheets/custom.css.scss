@@ -178,6 +178,7 @@ and (-webkit-min-device-pixel-ratio: 2){
   html{
     width: auto;
     height: auto;
+    margin-bottom: 20px;
   }
 
   body{
@@ -372,13 +373,11 @@ and (-webkit-min-device-pixel-ratio: 2)
 and (orientation: portrait)
 {
 
-  .retina-iphone-only {display: block}
 
 html{
     width: auto;
     height: auto;
     margin-bottom: 20px;
-
   }
 
   body{
@@ -405,7 +404,7 @@ html{
       }
 
       a img#signingoogle{
-        margin: 91px 0 250px 35px;
+        margin: 91px 0 253px 35px;
       }
 
       div.botonesinicio{
