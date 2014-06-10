@@ -192,7 +192,7 @@ and (-webkit-min-device-pixel-ratio: 2){
   body > div { -webkit-transition: all 1s ease-in-out; }
 
   html{
-
+    background-color: #ffffff;
     margin-top: 20px;
     font-family: -apple-system-font !important;
     width: auto;
@@ -416,13 +416,15 @@ and (orientation: portrait)
   body > div { -webkit-transition: all 1s ease-in-out; }
 
   html{
-    margin-top: 20px;
-    font-family: -apple-system-font !important;
-    width: auto;
-    height: auto;
+      background-color: #ffffff;
+      margin-top: 20px;
+      font-family: -apple-system-font !important;
+      width: auto;
+      height: auto;
     }
 
   body{
+
     background-color: #ffffff;
     width: auto;
     height: 100%;
@@ -532,7 +534,6 @@ and (orientation: portrait)
     }
 
     header{
-
 
       height: auto;
 
