@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="1cf3c61e-e7ff-46d3-8341-be6da31c7be0" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/manifest-111ae5ca7effcde7b54e5583f94976a3.json" afterPath="$PROJECT_DIR$/public/assets/manifest-111ae5ca7effcde7b54e5583f94976a3.json" />
     </list>
     <ignored path="katemu.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -12,7 +11,7 @@
     <file path="/help.html.erb" changelist="1cf3c61e-e7ff-46d3-8341-be6da31c7be0" time="1402003615435" ignored="false" />
     <file path="/application.html.erb" changelist="1cf3c61e-e7ff-46d3-8341-be6da31c7be0" time="1402431662420" ignored="false" />
     <file path="/application_helper.rb" changelist="1cf3c61e-e7ff-46d3-8341-be6da31c7be0" time="1401887231718" ignored="false" />
-    <file path="/custom.css.scss" changelist="1cf3c61e-e7ff-46d3-8341-be6da31c7be0" time="1402435280417" ignored="false" />
+    <file path="/custom.css.scss" changelist="1cf3c61e-e7ff-46d3-8341-be6da31c7be0" time="1402435665611" ignored="false" />
     <file path="/application.css" changelist="1cf3c61e-e7ff-46d3-8341-be6da31c7be0" time="1402329821714" ignored="false" />
     <file path="/_header.html.erb" changelist="1cf3c61e-e7ff-46d3-8341-be6da31c7be0" time="1402422695778" ignored="false" />
     <file path="/_footer.html.erb" changelist="1cf3c61e-e7ff-46d3-8341-be6da31c7be0" time="1401910805022" ignored="false" />
@@ -27,6 +26,7 @@
     <file path="/static_pages.css.scss" changelist="1cf3c61e-e7ff-46d3-8341-be6da31c7be0" time="1402329695658" ignored="false" />
     <file path="/sessions_controller.rb" changelist="1cf3c61e-e7ff-46d3-8341-be6da31c7be0" time="1402347658624" ignored="false" />
     <file path="/application.js" changelist="1cf3c61e-e7ff-46d3-8341-be6da31c7be0" time="1402347402429" ignored="false" />
+    <file path="$PROJECT_DIR$/public/assets/manifest-111ae5ca7effcde7b54e5583f94976a3.json" changelist="1cf3c61e-e7ff-46d3-8341-be6da31c7be0" time="1402435443558" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +51,7 @@
       <file leaf-file-name="custom.css.scss" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="428" column="23" selection-start="7220" selection-end="7220" vertical-scroll-proportion="0.7133758">
+            <state line="425" column="31" selection-start="7181" selection-end="7181" vertical-scroll-proportion="0.3312102">
               <folding />
             </state>
           </provider>
@@ -872,7 +872,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="428" column="23" selection-start="7220" selection-end="7220" vertical-scroll-proportion="0.7133758">
+        <state line="425" column="31" selection-start="7181" selection-end="7181" vertical-scroll-proportion="0.3312102">
           <folding />
         </state>
       </provider>

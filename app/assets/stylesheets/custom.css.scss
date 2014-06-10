@@ -191,7 +191,6 @@ and (-webkit-min-device-pixel-ratio: 2){
 
 
   html{
-    margin-top: 20px;
     font-family: -apple-system-font !important;
     width: auto;
     height: auto;
@@ -418,14 +417,13 @@ and (orientation: portrait)
   }
 
   html{
-      margin-top: 20px;
       font-family: -apple-system-font !important;
       width: auto;
       height: auto;
     }
 
   body{
-
+    margin-top: 20px !important;
     background: #FFFFFF;
     width: auto;
     height: 100%;
