@@ -39,13 +39,11 @@ body{
       }
 
       h2{
-
         position: absolute;
-        margin: 0;
-        top: 35px;
-        left: 460px;
-
-
+        margin: 0px;
+        width: 100%;
+        top: 30px;
+        text-align: center;
       }
       div.btn-group.pull-right.open{
         ul.dropdown-menu{
@@ -162,8 +160,6 @@ body{
       }
     }
   }
-
-
 }
 
 /*------------------------------------*\
