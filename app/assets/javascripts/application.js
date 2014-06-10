@@ -38,6 +38,11 @@ $("a.popup").click(function(e) {
     e.stopPropagation(); return false;
 });
 
-if(window.innerHeight > window.innerWidth){
-    document.getElementsByTagName("body").style.transform = "rotate(90deg)";
-}
+$(document).ready(function () {
+    function reorient(e) {
+        var portrait = (window.orientation % 180 == 0);
+        $("body > div").css("-webkit-transform", !portrait ? "rotate(-90deg)" : "");
+    }
+    window.onorientationchange = reorient;
+    window.setTimeout(reorient, 0);
+});

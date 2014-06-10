@@ -211,8 +211,9 @@ and (-webkit-min-device-pixel-ratio: 2){
       div.botonesinicio{
 
         position: absolute;
+        width: 100%;
+        margin: 0px;
         top: 153px;
-        left: 75px;
 
       button.btn.btn-default{
         height: 54px;
@@ -374,12 +375,13 @@ and (-webkit-min-device-pixel-ratio: 2)
 and (orientation: portrait)
 {
 
+  body > div { -webkit-transition: all 1s ease-in-out; }
 
-html{
-    width: auto;
-    height: auto;
-    margin-bottom: 20px;
-  }
+  html{
+      width: auto;
+      height: auto;
+      margin-bottom: 20px;
+    }
 
   body{
 
@@ -410,9 +412,10 @@ html{
 
       div.botonesinicio{
 
-        position: absolute;
+        osition: absolute;
+        width: 100%;
+        margin: 0px;
         top: 186px;
-        left: 75px;
 
         button.btn.btn-default{
           height: 54px;
