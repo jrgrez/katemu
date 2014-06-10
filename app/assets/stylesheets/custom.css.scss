@@ -193,6 +193,7 @@ and (-webkit-min-device-pixel-ratio: 2){
 
   html{
 
+    margin-top: 20px;
     font-family: -apple-system-font !important;
     width: auto;
     height: auto;
@@ -218,7 +219,7 @@ and (-webkit-min-device-pixel-ratio: 2){
 
       img#iphonehome{
         display: block;
-        height:341px;
+        height:321px;
         width: 100%;
       }
 
@@ -227,7 +228,7 @@ and (-webkit-min-device-pixel-ratio: 2){
         margin-top: 25%;
         margin-left: auto;
         margin-right: auto;
-        margin-bottom: 208px;
+        margin-bottom: 188px;
         width: 75%;
 
       }
@@ -284,7 +285,7 @@ and (-webkit-min-device-pixel-ratio: 2){
         margin-left: auto;
         margin-right: auto;
         margin-top: 10px;
-        margin-bottom: 130px;
+        margin-bottom: 110px;
 
       }
 
@@ -415,9 +416,10 @@ and (orientation: portrait)
   body > div { -webkit-transition: all 1s ease-in-out; }
 
   html{
-      width: auto;
-      height: auto;
-
+    margin-top: 20px;
+    font-family: -apple-system-font !important;
+    width: auto;
+    height: auto;
     }
 
   body{
@@ -440,7 +442,7 @@ and (orientation: portrait)
       img#iphonehome{
         display: block;
         max-widt: 100%;
-        height:422px;
+        height:402px;
       }
 
       a img#signingoogle{
@@ -448,7 +450,7 @@ and (orientation: portrait)
         margin-top: 25%;
         margin-left: auto;
         margin-right: auto;
-        margin-bottom: 288px;
+        margin-bottom: 268px;
         width: 75%;
       }
 
@@ -504,7 +506,7 @@ and (orientation: portrait)
         margin-left: auto;
         margin-right: auto;
         margin-top: 36px;
-        margin-bottom: 184px;
+        margin-bottom: 164px;
 
       }
 
@@ -530,6 +532,8 @@ and (orientation: portrait)
     }
 
     header{
+
+
       height: auto;
 
       nav.navbar.navbar-default{
