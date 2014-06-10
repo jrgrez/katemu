@@ -38,3 +38,6 @@ $("a.popup").click(function(e) {
     e.stopPropagation(); return false;
 });
 
+if(window.innerHeight > window.innerWidth){
+    document.getElementsByTagName("body").style.transform = "rotate(90deg)";
+}
