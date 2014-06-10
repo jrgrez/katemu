@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1cf3c61e-e7ff-46d3-8341-be6da31c7be0" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/_header.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/_header.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/application.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/application.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/katemu.iml" afterPath="$PROJECT_DIR$/.idea/katemu.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="katemu.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -16,7 +11,7 @@
     <file path="/help.html.erb" changelist="1cf3c61e-e7ff-46d3-8341-be6da31c7be0" time="1402003615435" ignored="false" />
     <file path="/application.html.erb" changelist="1cf3c61e-e7ff-46d3-8341-be6da31c7be0" time="1402342114249" ignored="false" />
     <file path="/application_helper.rb" changelist="1cf3c61e-e7ff-46d3-8341-be6da31c7be0" time="1401887231718" ignored="false" />
-    <file path="/custom.css.scss" changelist="1cf3c61e-e7ff-46d3-8341-be6da31c7be0" time="1402403821609" ignored="false" />
+    <file path="/custom.css.scss" changelist="1cf3c61e-e7ff-46d3-8341-be6da31c7be0" time="1402405884806" ignored="false" />
     <file path="/application.css" changelist="1cf3c61e-e7ff-46d3-8341-be6da31c7be0" time="1402329821714" ignored="false" />
     <file path="/_header.html.erb" changelist="1cf3c61e-e7ff-46d3-8341-be6da31c7be0" time="1402402449050" ignored="false" />
     <file path="/_footer.html.erb" changelist="1cf3c61e-e7ff-46d3-8341-be6da31c7be0" time="1401910805022" ignored="false" />
@@ -64,7 +59,7 @@
       <file leaf-file-name="custom.css.scss" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="18" selection-start="828" selection-end="848" vertical-scroll-proportion="0.6624204">
+            <state line="575" column="1" selection-start="9707" selection-end="9707" vertical-scroll-proportion="0.9235669">
               <folding />
             </state>
           </provider>
@@ -927,7 +922,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="18" selection-start="828" selection-end="848" vertical-scroll-proportion="0.6624204">
+        <state line="575" column="1" selection-start="9707" selection-end="9707" vertical-scroll-proportion="0.9235669">
           <folding />
         </state>
       </provider>

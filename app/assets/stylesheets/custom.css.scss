@@ -42,10 +42,15 @@ body{
         position: absolute;
         margin: 0px;
         width: 100%;
-        top: 30px;
+        top: 32px;
         text-align: center;
+        font-size: 2vw;
+
       }
       div.btn-group.pull-right.open{
+
+
+
         ul.dropdown-menu{
           li{
               font-size: 20px;
@@ -122,11 +127,11 @@ body{
 
       a{
         img#signingoogle{
-          position: relative;
-          margin-top: 195px;
-          margin-left: 495px;
-          height: 56px;
-          width: auto;
+          margin-left: auto;
+          margin-right: auto;
+          display: block;
+          width: 20%;
+          margin-top: 10%;
 
         }
       }
@@ -558,6 +563,16 @@ html{
     display:block;
   }
 
+}
+
+@media only screen and (orientation:landscape){
+  #container {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
 }
 
 
