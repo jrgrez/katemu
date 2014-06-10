@@ -20,20 +20,12 @@ $(document).ready( function() {
     $('.dropdown-toggle').dropdown();
 });
 
-$(document).ready(function() {
-    var height_diff = $(window).height() - $('body').height();
-    if ( height_diff > 0 ) {
-        $('#footer').css( 'margin-top', height_diff );
+(function(){
+    if (!window.navigator.standalone) {
+        var meta = document.createElement("meta");
+        meta.setAttribute("name", "apple-mobile-web-app-status-bar-style");
+        meta.setAttribute("content", "black-translucent");
+        var head = document.getElementsByTagName("head")[0];
+        head.appendChild(meta);
     }
-});
-
-function popupCenter(url, width, height, name) {
-    var left = (screen.width/2)-(width/2);
-    var top = (screen.height/2)-(height/2);
-    return window.open(url, name, "menubar=no,toolbar=no,status=no,width="+width+",height="+height+",toolbar=no,left="+left+",top="+top);
-}
-
-$("a.popup").click(function(e) {
-    popupCenter($(this).attr("href"), $(this).attr("data-width"), $(this).attr("data-height"), "authPopup");
-    e.stopPropagation(); return false;
-});
+}());

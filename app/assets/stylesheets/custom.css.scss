@@ -189,22 +189,24 @@ body{
 and (max-device-width: 320px)
 and (-webkit-min-device-pixel-ratio: 2){
 
-  .retina-iphone-only{display: block}
+  body > div { -webkit-transition: all 1s ease-in-out; }
 
   html{
+
+    font-family: -apple-system-font !important;
     width: auto;
     height: auto;
-    margin-bottom: 20px;
-
   }
 
   body{
 
-    width: 100%;
+    background-color: #ffffff;
+    width: auto;
     height: 100%;
     -webkit-text-size-adjust:none;
     font-family:Helvetica, Arial, Verdana, sans-serif;
     padding:0px;
+
 
     div.container{
 
@@ -216,12 +218,26 @@ and (-webkit-min-device-pixel-ratio: 2){
 
       img#iphonehome{
         display: block;
-        height:340px;
+        height:321px;
         width: 100%;
       }
 
       a img#signingoogle{
-          margin: 43px 0 241px 35px;
+
+        margin-top: 25%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 188px;
+        width: 75%;
+
+      }
+
+      a#sign_out{
+
+        font-family: -apple-system-font;
+        font-weight: 500;
+        font: 72px;
+
       }
 
       div.botonesinicio{
@@ -231,22 +247,24 @@ and (-webkit-min-device-pixel-ratio: 2){
         margin: 0px;
         top: 140px;
 
-      button.btn.btn-default{
-        height: 54px;
-        width: 170px;
-        margin: 50px auto 20px auto;
-        border-radius: 10px;
-        display: block;
-        filter:alpha(opacity=50);
-        filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0.5);
-        opacity:.80;
+        button.btn.btn-default{
+          height: 54px;
+          width: 150px;
+          margin: 50px auto 20px auto;
+          border-radius: 10px;
+          display: block;
+          filter:alpha(opacity=50);
+          filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0.5);
+          opacity:.80;
 
 
-        a{
-          text-decoration: none;
-          font-size: 23px;
-          font-weight: bold;
-          color: #e17600;
+            a{
+              font-family: -apple-system-font;
+              font-weight: 300;
+              font: 20px;
+              font-size: 20px;
+              text-decoration: none;
+              color: #e17600;
         }
       }
       }
@@ -266,7 +284,7 @@ and (-webkit-min-device-pixel-ratio: 2){
         margin-left: auto;
         margin-right: auto;
         margin-top: 10px;
-        margin-bottom: 129px;
+        margin-bottom: 110px;
 
       }
 
@@ -275,7 +293,7 @@ and (-webkit-min-device-pixel-ratio: 2){
         button.btn.btn-default{
           display: block;
           position: absolute;
-          bottom: 116px;
+          bottom: 100px;
           left: 137px;
           background: transparent;
           border: none;
@@ -328,12 +346,12 @@ and (-webkit-min-device-pixel-ratio: 2){
 
       height: 31px;
       position: relative;
-      bottom: 19px;
+      bottom: 0px;
 
 
       small{
         height: auto;
-        margin-top: autopx;
+        margin-top: auto;
         margin-bottom: auto;
 
         a{
@@ -344,6 +362,9 @@ and (-webkit-min-device-pixel-ratio: 2){
           text-align: center;
           color: #ffffff;
           text-decoration: none;
+          font-family: -apple-system-font;
+          font-weight: 300;
+          font: 72px;
         }
       }
 
@@ -394,19 +415,17 @@ and (orientation: portrait)
   body > div { -webkit-transition: all 1s ease-in-out; }
 
   html{
-
-      background-color: #ffffff;
       width: auto;
-      height: 100%;
-      margin-bottom: 20px;
+      height: auto;
+
     }
 
   body{
-
-    width: 100%;
+    background-color: #ffffff;
+    width: auto;
     height: 100%;
     -webkit-text-size-adjust:none;
-    font-family:Helvetica, Arial, Verdana, sans-serif;
+    font-family: Helvetica, Arial, Verdana, sans-serif;
     padding:0px;
 
 
@@ -425,7 +444,20 @@ and (orientation: portrait)
       }
 
       a img#signingoogle{
-        margin: 91px 0 253px 35px;
+
+        margin-top: 25%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 268px;
+        width: 75%;
+      }
+
+      a#sign_out{
+
+        font-family: -apple-system-font;
+        font-weight: 500;
+        font: 72px;
+
       }
 
       div.botonesinicio{
@@ -435,9 +467,9 @@ and (orientation: portrait)
         margin: 0px;
         top: 186px;
 
-        button.btn.btn-default{
+        button.btn.btn-default.btn-lock{
           height: 54px;
-          width: 170px;
+          width: 140px;
           margin: 50px auto 20px auto;
           border-radius: 10px;
           display: block;
@@ -447,9 +479,11 @@ and (orientation: portrait)
 
 
           a{
+            font-family: -apple-system-font;
+            font-weight: 400;
+            font: 20px;
+            font-size: 20px;
             text-decoration: none;
-            font-size: 23px;
-            font-weight: bold;
             color: #e17600;
           }
         }
@@ -470,7 +504,7 @@ and (orientation: portrait)
         margin-left: auto;
         margin-right: auto;
         margin-top: 36px;
-        margin-bottom: 126px;
+        margin-bottom: 164px;
 
       }
 
@@ -479,7 +513,7 @@ and (orientation: portrait)
         button.btn.btn-default{
           display: block;
           position: absolute;
-          bottom: 120px;
+          bottom: 160px;
           left: 137px;
           background: transparent;
           border: none;
@@ -496,7 +530,6 @@ and (orientation: portrait)
     }
 
     header{
-
       height: auto;
 
       nav.navbar.navbar-default{
@@ -538,7 +571,7 @@ and (orientation: portrait)
 
       small{
         height: auto;
-        margin-top: autopx;
+        margin-top: auto;
         margin-bottom: auto;
 
         a{
@@ -549,6 +582,9 @@ and (orientation: portrait)
           text-align: center;
           color: #ffffff;
           text-decoration: none;
+          font-family: -apple-system-font;
+          font-weight: 300;
+          font: 72px;
         }
       }
 
