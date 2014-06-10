@@ -7,33 +7,48 @@ html{
   margin: 0px;
   padding: 0px;
   border: 0px;
+  background-color: #ffffff;
 }
 
 body{
+
   overflow-y: scroll;
   width: 100%;
+
   header{
+
     margin: 0px;
     width: auto;
+
     nav.navbar.navbar-default{
+
       margin: 0px;
       background-color: #ffffff;
       border-bottom: 0px;
+
       img#logo{
+
+        pointer-events:none;
         width: 25%;
         height: 50%;
         margin-left: 50px;
       }
+
       div.btn-group.pull-right{
+
         margin-top: 15px;
         margin-right: 50px;
+
         button.btn.btn-default.dropdown-toggle{
+
           border: none;
           background: transparent;
+
             span.glyphicon.glyphicon-align-justify{
               margin: auto;
               zoom: 3;
               color: #e17600;
+
             }
         }
       }
@@ -180,6 +195,7 @@ and (-webkit-min-device-pixel-ratio: 2){
     width: auto;
     height: auto;
     margin-bottom: 20px;
+
   }
 
   body{
@@ -379,8 +395,9 @@ and (orientation: portrait)
 
   html{
 
+      background-color: #ffffff;
       width: auto;
-      height: auto;
+      height: 100%;
       margin-bottom: 20px;
     }
 
