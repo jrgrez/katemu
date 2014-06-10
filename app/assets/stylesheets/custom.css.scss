@@ -374,14 +374,6 @@ and (-webkit-min-device-pixel-ratio: 2)
 and (orientation: portrait)
 {
 
-  #container {
-    -webkit-transform: rotate(90deg);
-    -moz-transform: rotate(90deg);
-    -o-transform: rotate(90deg);
-    -ms-transform: rotate(90deg);
-    transform: rotate(90deg);
-  }
-
 
 html{
     width: auto;
@@ -573,15 +565,6 @@ html{
 
 }
 
-@media only screen and (orientation:landscape){
-  #container {
-    -webkit-transform: rotate(0deg);
-    -moz-transform: rotate(0deg);
-    -o-transform: rotate(0deg);
-    -ms-transform: rotate(0deg);
-    transform: rotate(0deg);
-  }
-}
 
 
 
