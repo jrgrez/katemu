@@ -37,12 +37,3 @@ $("a.popup").click(function(e) {
     popupCenter($(this).attr("href"), $(this).attr("data-width"), $(this).attr("data-height"), "authPopup");
     e.stopPropagation(); return false;
 });
-
-$(document).ready(function () {
-    function reorient(e) {
-        var portrait = (window.orientation % 180 == 0);
-        $("body > div").css("-webkit-transform", !portrait ? "rotate(-90deg)" : "");
-    }
-    window.onorientationchange = reorient;
-    window.setTimeout(reorient, 0);
-});

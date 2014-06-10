@@ -30,6 +30,20 @@
       <!-- iPhone 5 -->
       <link rel="apple-touch-startup-image" href="/apple-touch-startup-image-640x1096.png">
 
+      <script type="text/javascript">
+          var updateLayout = function() {
+              if (window.innerWidth != currentWidth) {
+                  currentWidth = window.innerWidth;
+                  var orient = (currentWidth == 320) ? "profile" : "landscape";
+                  document.body.setAttribute("orient", orient);
+                  window.scrollTo(0, 1);
+              }
+          };
+
+          iPhone.DomLoad(updateLayout);
+          setInterval(updateLayout, 400);
+      </script>
+
 
 
 </head>
