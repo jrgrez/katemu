@@ -135,9 +135,7 @@ body{
           li{
             margin: 10px;
           }
-
         }
-
       }
 
       a{
@@ -192,7 +190,7 @@ and (-webkit-min-device-pixel-ratio: 2){
   body > div { -webkit-transition: all 1s ease-in-out; }
 
   html{
-    background-color: transparent;
+    background: #ffffff;
     margin-top: 20px;
     font-family: -apple-system-font !important;
     width: auto;
@@ -416,7 +414,7 @@ and (orientation: portrait)
   body > div { -webkit-transition: all 1s ease-in-out; }
 
   html{
-      background-color: transparent;
+      background: #ffffff;
       margin-top: 20px;
       font-family: -apple-system-font !important;
       width: auto;
