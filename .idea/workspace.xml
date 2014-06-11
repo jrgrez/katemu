@@ -2,14 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1cf3c61e-e7ff-46d3-8341-be6da31c7be0" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="katemu.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Gemfile" changelist="1cf3c61e-e7ff-46d3-8341-be6da31c7be0" time="1402431841126" ignored="false" />
     <file path="/form.html.erb" changelist="1cf3c61e-e7ff-46d3-8341-be6da31c7be0" time="1402346610848" ignored="false" />
     <file path="/help.html.erb" changelist="1cf3c61e-e7ff-46d3-8341-be6da31c7be0" time="1402003615435" ignored="false" />
-    <file path="/application.html.erb" changelist="1cf3c61e-e7ff-46d3-8341-be6da31c7be0" time="1402500698590" ignored="false" />
+    <file path="/application.html.erb" changelist="1cf3c61e-e7ff-46d3-8341-be6da31c7be0" time="1402515664752" ignored="false" />
     <file path="/application_helper.rb" changelist="1cf3c61e-e7ff-46d3-8341-be6da31c7be0" time="1401887231718" ignored="false" />
     <file path="/custom.css.scss" changelist="1cf3c61e-e7ff-46d3-8341-be6da31c7be0" time="1402499294157" ignored="false" />
     <file path="/application.css" changelist="1cf3c61e-e7ff-46d3-8341-be6da31c7be0" time="1402329821714" ignored="false" />
@@ -57,7 +58,7 @@
       <file leaf-file-name="application.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="98" selection-start="886" selection-end="886" vertical-scroll-proportion="0.63448274">
+            <state line="11" column="71" selection-start="360" selection-end="360" vertical-scroll-proportion="0.3034483">
               <folding />
             </state>
           </provider>
@@ -127,7 +128,7 @@
       <file leaf-file-name="custom.css.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="198" column="7" selection-start="3252" selection-end="3252" vertical-scroll-proportion="0.0">
+            <state line="197" column="46" selection-start="3244" selection-end="3244" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -892,14 +893,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="198" column="7" selection-start="3252" selection-end="3252" vertical-scroll-proportion="0.0">
+        <state line="197" column="46" selection-start="3244" selection-end="3244" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="98" selection-start="886" selection-end="886" vertical-scroll-proportion="0.63448274">
+        <state line="11" column="71" selection-start="360" selection-end="360" vertical-scroll-proportion="0.3034483">
           <folding />
         </state>
       </provider>
