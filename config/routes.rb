@@ -7,6 +7,8 @@ Katemu::Application.routes.draw do
   match '/auth/failure', to: redirect('/home'), via: 'get'
   match '/signout', to: 'sessions#destroy', via:'get', as:'signout'
 
+  get "sessions/destroy"
+
 
   resources :sessions, only: [:create, :destroy]
   resource :home, only: [:show]
