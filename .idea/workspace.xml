@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1cf3c61e-e7ff-46d3-8341-be6da31c7be0" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss" />
     </list>
     <ignored path="katemu.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -54,10 +54,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.html.erb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="application.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="98" selection-start="886" selection-end="886" vertical-scroll-proportion="0.63448274">
+            <state line="23" column="98" selection-start="886" selection-end="886" vertical-scroll-proportion="-14.72">
               <folding />
             </state>
           </provider>
@@ -124,10 +124,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="custom.css.scss" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="custom.css.scss" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="199" column="0" selection-start="3253" selection-end="3284" vertical-scroll-proportion="0.0">
+            <state line="198" column="7" selection-start="3252" selection-end="3252" vertical-scroll-proportion="0.4446281">
               <folding />
             </state>
           </provider>
@@ -165,8 +165,8 @@
         <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/controllers/sessions_controller.rb" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss" />
       </list>
     </option>
   </component>
@@ -890,16 +890,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss">
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="199" column="0" selection-start="3253" selection-end="3284" vertical-scroll-proportion="0.0">
+        <state line="23" column="98" selection-start="886" selection-end="886" vertical-scroll-proportion="-14.72">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="98" selection-start="886" selection-end="886" vertical-scroll-proportion="0.63448274">
+        <state line="198" column="7" selection-start="3252" selection-end="3252" vertical-scroll-proportion="0.4446281">
           <folding />
         </state>
       </provider>
