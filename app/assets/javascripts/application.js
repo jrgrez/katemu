@@ -20,7 +20,7 @@ $(document).ready( function() {
     $('.dropdown-toggle').dropdown();
 });
 
-(function(){
+/*(function(){
     if (!window.navigator.standalone) {
         var meta = document.createElement("meta");
         meta.setAttribute("name", "apple-mobile-web-app-status-bar-style");
@@ -28,4 +28,12 @@ $(document).ready( function() {
         var head = document.getElementsByTagName("head")[0];
         head.appendChild(meta);
     }
-}());
+}());*/
+
+function onDeviceReady() {
+    if (parseFloat(window.device.version) >= 7.0) {
+        document.body.style.marginTop = "20px";
+        // OR do whatever layout you need here, to expand a navigation bar etc
+    }
+}
+document.addEventListener('deviceready', onDeviceReady, false);

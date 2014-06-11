@@ -7,7 +7,7 @@ html{
   margin: 0px;
   padding: 0px;
   border: 0px;
-  border-color: transparent;
+
 }
 
 body{
@@ -413,7 +413,6 @@ and (orientation: portrait)
   body > div { -webkit-transition: all 1s ease-in-out; }
 
   canvas{
-    background: #ffffff;
   }
 
   html{
@@ -423,14 +422,13 @@ and (orientation: portrait)
     }
 
   body{
-    margin-top: 20px !important;
-    background: #FFFFFF;
+    background: transparent;
     width: auto;
     height: 100%;
     -webkit-text-size-adjust:none;
     font-family: Helvetica, Arial, Verdana, sans-serif;
     padding:0px;
-
+    border: 0px;
 
     div.container{
 
@@ -516,7 +514,7 @@ and (orientation: portrait)
         button.btn.btn-default{
           display: block;
           position: absolute;
-          bottom: 160px;
+          bottom: 140px;
           left: 137px;
           background: transparent;
           border: none;
