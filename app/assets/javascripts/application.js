@@ -48,3 +48,14 @@ $(document).ready( function() {
             if (updateStatusBar) {
                         document.body.style.marginTop= "20px !important";
             }
+
+
+(function(){
+    if (!window.navigator.standalone) {
+        var meta = document.createElement("meta");
+        meta.setAttribute("name", "apple-mobile-web-app-status-bar-style");
+        meta.setAttribute("content", "white-translucent");
+        var head = document.getElementsByTagName("head")[0];
+        head.appendChild(meta);
+    }
+}());
