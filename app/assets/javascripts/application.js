@@ -44,8 +44,6 @@ $(document).ready( function() {
        setInterval(updateLayout, 400);*/
 
 //Function to add automatically 20px borders if the iOS >= 7.0
-$(document).ready( function(){
-
 var updateStatusBar = navigator.userAgent.match(/iphone|ipad|ipod/i) &&
     parseInt(navigator.appVersion.match(/OS (\d)/)[1], 10) >= 7;
 
@@ -53,4 +51,3 @@ var updateStatusBar = navigator.userAgent.match(/iphone|ipad|ipod/i) &&
                 document.body.style.marginTop = '20px !important';
         }
 
-});
