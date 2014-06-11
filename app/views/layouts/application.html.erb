@@ -9,7 +9,7 @@
 
       <meta name="apple-mobile-web-app-capable" content="yes">
 
-      <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+      <meta name="apple-mobile-web-app-status-bar-style" content="white">
 
       <meta name="apple-mobile-web-app-title" content="Katemu">
 
@@ -26,7 +26,7 @@
                      and (-webkit-device-pixel-ratio: 2)">
 
       <!-- iPhone 5 -->
-      <link rel="apple-touch-startup-image" href="<%= asset_path('prueba.png') %>"
+      <link rel="apple-touch-startup-image" href="<%= asset_path('apple-touch-startup-image-640x1136.png') %>"
             media="(device-width: 320px) and (device-height: 568px)
                      and (-webkit-device-pixel-ratio: 2)">
 
@@ -36,17 +36,6 @@
       <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
       <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
       <%= csrf_meta_tags %>
-
-
-      <script>
-          var updateStatusBar = navigator.userAgent.match(/iphone|ipad|ipod/i) &&
-                  parseInt(navigator.appVersion.match(/OS (\d)/)[1], 10) >= 7;
-          if (updateStatusBar) {
-              document.body.style.marginTop = '20px !important';
-          }
-      </script>
-
-
 
 </head>
 
@@ -58,6 +47,7 @@
 </div>
 
     <%= render 'layouts/footer' %>
+
 
 </body>
 </html>

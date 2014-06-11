@@ -43,11 +43,8 @@ $(document).ready( function() {
        /*iPhone.DomLoad(updateLayout);
        setInterval(updateLayout, 400);*/
 
-//Function to add automatically 20px borders if the iOS >= 7.0
-var updateStatusBar = navigator.userAgent.match(/iphone|ipad|ipod/i) &&
-    parseInt(navigator.appVersion.match(/OS (\d)/)[1], 10) >= 7;
-
-        if (updateStatusBar) {
-                document.body.style.marginTop = '20px !important';
-        }
-
+        var updateStatusBar = navigator.userAgent.match(/iphone|ipad|ipod/i) &&
+                    parseInt(navigator.appVersion.match(/OS (\d)/)[1], 10) >= 0;
+            if (updateStatusBar) {
+                        document.body.style.marginTop= "20px !important";
+            }

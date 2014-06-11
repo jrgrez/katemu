@@ -197,7 +197,7 @@ and (-webkit-min-device-pixel-ratio: 2){
   }
 
   body{
-
+    margin-top:20px !important;
     background: #ffffff;
     width: auto;
     height: 100%;
@@ -413,23 +413,24 @@ and (orientation: portrait)
   body > div { -webkit-transition: all 1s ease-in-out; }
 
   canvas{
+
   }
 
   html{
+      background-color: #ffffff;
       font-family: -apple-system-font !important;
       width: auto;
       height: auto;
     }
 
   body{
-    background: transparent;
     width: auto;
     height: 100%;
     -webkit-text-size-adjust:none;
     font-family: Helvetica, Arial, Verdana, sans-serif;
     padding:0px;
-    border: 0px;
-    margin-top: 20px !important;
+    border-top:#ffffff;
+    margin-top:20px !important;
 
     div.container{
 
@@ -489,6 +490,7 @@ and (orientation: portrait)
             color: #e17600;
           }
         }
+
       }
 
       iframe{
@@ -535,10 +537,10 @@ and (orientation: portrait)
 
       height: auto;
 
+
       nav.navbar.navbar-default{
 
         margin: 0px;
-
         img#logo{
           margin: auto;
           display: block;
