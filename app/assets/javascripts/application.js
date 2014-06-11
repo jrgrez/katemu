@@ -30,10 +30,27 @@ $(document).ready( function() {
     }
 }());*/
 
-function onDeviceReady() {
-    if (parseFloat(window.device.version) >= 7.0) {
-        document.body.style.marginTop = "20px";
-        // OR do whatever layout you need here, to expand a navigation bar etc
-    }
-}
-document.addEventListener('deviceready', onDeviceReady, false);
+//Function to avoid landscape view.
+ var updateLayout = function() {
+         if (window.innerWidth != currentWidth) {
+               currentWidth = window.innerWidth;
+               var orient = (currentWidth == 320) ? "profile" : "landscape";
+               document.body.setAttribute("orient", orient);
+               window.scrollTo(0, 1);
+             }
+          };
+
+       /*iPhone.DomLoad(updateLayout);
+       setInterval(updateLayout, 400);*/
+
+//Function to add automatically 20px borders if the iOS >= 7.0
+$(document).ready( function(){
+
+var updateStatusBar = navigator.userAgent.match(/iphone|ipad|ipod/i) &&
+    parseInt(navigator.appVersion.match(/OS (\d)/)[1], 10) >= 7;
+
+        if (updateStatusBar) {
+                document.body.style.marginTop = '20px !important';
+        }
+
+});
