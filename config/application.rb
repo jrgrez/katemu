@@ -21,7 +21,7 @@ module Katemu
     # config.i18n.load_path += Dir[Rails.root.join('my', 'locales', '*.{rb,yml}').to_s]
     # config.i18n.default_locale = :de
 
-    config.assets.precompile += %w(*.png *.jpg *.jpeg *.gif *.js *.css)
+    config.assets.precompile += %w(*.png *.jpg *.jpeg *.gif *.css)
     config.assets.version = '1.1'
     config.serve_static_assets = true
     config.assets.initialize_on_precompile = true
