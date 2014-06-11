@@ -24,5 +24,6 @@ module Katemu
     config.assets.precompile += %w(*.png *.jpg *.jpeg *.gif)
     config.assets.version = '1.1'
     config.serve_static_assets = true
+    config.assets.initialize_on_precompile = true
   end
 end
