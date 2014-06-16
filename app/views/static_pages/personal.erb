@@ -5,6 +5,8 @@
     <%= link_to "Sign out", signout_path, id: "sign_out" %>
 
 
+    <iframe id="spreadsheet"  src="https://docs.google.com/a/katemu.cl/spreadsheets/d/1h9AJuQwIhzDjxy55neCitxz6L0_FoRgCVUssQKwwy_M/edit?usp=sharing&amp; headers=false" ></iframe>
+
 
 <% else %>
     <%= link_to image_tag("sign-in-with-google.png", id: "signingoogle"), "auth/google_oauth2" %>

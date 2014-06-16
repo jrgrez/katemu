@@ -59,3 +59,10 @@ $(document).ready( function() {
         head.appendChild(meta);
     }
 }());
+
+$('#example').handsontable({
+    data: $data,
+    minSpareRows: 1,
+    colHeaders: true,
+    contextMenu: true
+});

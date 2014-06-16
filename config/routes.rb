@@ -1,18 +1,19 @@
 Katemu::Application.routes.draw do
 
+  get "users/new"
   root 'static_pages#home'
   match '/home', to: 'static_pages#home', via: 'get'
   match '/form',   to: 'static_pages#form',   via: 'get'
   match '/help', to: 'static_pages#help', via: 'get'
   match '/personal', to:'static_pages#personal', via: 'get'
 
+  match '/docs', to: 'doclist#all', via:'get', :controller => 'doclist', :action=>'all'
 
   match  '/auth/:provider/callback', to:  'sessions#create', via:'get'
   match '/auth/failure', to: redirect('/home'), via: 'get'
   match '/signout', to: 'sessions#destroy', via:'get', as:'signout'
   resources :sessions, only: [:create, :destroy]
   resource :home, only: [:show]
-
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
@@ -69,3 +70,5 @@ Katemu::Application.routes.draw do
   #     resources :products
   #   end
 end
+
+

@@ -24,8 +24,7 @@ gem 'jquery-rails', '3.0.4'
 gem 'turbolinks', '1.1.1'
 gem 'jbuilder', '1.0.2'
 gem "omniauth-google-oauth2", "~> 0.2.1"
-gem 'google_drive' , '0.3.9'
-gem 'simple_google_drive', '~> 0.5.0'
+gem 'google-api-client'
 
 
 group :doc do
