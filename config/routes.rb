@@ -8,8 +8,6 @@ Katemu::Application.routes.draw do
   match '/personal' , to:'static_pages#personal', via: 'get'
   match '/inventario', to: 'static_pages#inventario', via: 'get'
 
-  match '/docs', to: 'doclist#all', via:'get', :controller => 'doclist', :action=>'all'
-
   match  '/auth/:provider/callback', to:  'sessions#create', via:'get'
   match '/auth/failure', to: redirect('/home'), via: 'get'
   match '/signout', to: 'sessions#destroy', via:'get', as:'signout'
