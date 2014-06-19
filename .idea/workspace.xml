@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1cf3c61e-e7ff-46d3-8341-be6da31c7be0" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/addtohomescreen.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/addtohomescreen.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/addtohomescreen.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/addtohomescreen.js" />
     </list>
     <ignored path="katemu.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -104,11 +103,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.html.erb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="application.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="13" selection-start="1750" selection-end="1750" vertical-scroll-proportion="0.47971782">
+            <state line="34" column="40" selection-start="1362" selection-end="1362" vertical-scroll-proportion="-21.76">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="22" column="2" selection-start="764" selection-end="764" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -116,31 +126,24 @@
       <file leaf-file-name="addtohomescreen.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/javascripts/addtohomescreen.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="addtohomescreen.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/addtohomescreen.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="233" column="1" selection-start="11043" selection-end="11043" vertical-scroll-proportion="0.0">
+            <state line="2" column="0" selection-start="126" selection-end="126" vertical-scroll-proportion="0.0">
               <folding>
-                <element signature="e#1455#2806#2" expanded="true" />
-                <element signature="e#3837#4248#2" expanded="true" />
-                <element signature="e#4372#6763#2" expanded="true" />
-                <element signature="e#6911#9302#2" expanded="true" />
+                <element signature="n#!!doc" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_header.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/layouts/_header.html.erb">
+      <file leaf-file-name="addtohomescreen.css" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/addtohomescreen.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
-              <folding />
+            <state line="7" column="41" selection-start="157" selection-end="157" vertical-scroll-proportion="0.1891892">
+              <folding>
+                <element signature="e#1456#2807#2" expanded="true" />
+                <element signature="e#3838#4249#2" expanded="true" />
+                <element signature="e#4373#6764#2" expanded="true" />
+                <element signature="e#6912#9303#2" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -172,7 +175,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/controllers/sessions_controller.rb" />
         <option value="$PROJECT_DIR$/config/initializers/omniauth.rb" />
         <option value="$PROJECT_DIR$/app/views/static_pages/help.html.erb" />
         <option value="$PROJECT_DIR$/app/views/static_pages/form.html.erb" />
@@ -185,9 +187,10 @@
         <option value="$PROJECT_DIR$/app/views/static_pages/personal.erb" />
         <option value="$PROJECT_DIR$/app/views/static_pages/personal.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/addtohomescreen.css" />
-        <option value="$PROJECT_DIR$/app/assets/javascripts/addtohomescreen.js" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/addtohomescreen.js" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/addtohomescreen.css" />
       </list>
     </option>
   </component>
@@ -911,13 +914,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/helpers/users_helper.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/users_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -1002,29 +998,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/addtohomescreen.css">
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="233" column="1" selection-start="11043" selection-end="11043" vertical-scroll-proportion="0.0">
+        <state line="34" column="40" selection-start="1362" selection-end="1362" vertical-scroll-proportion="-21.76">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="2" selection-start="764" selection-end="764" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="e#1455#2806#2" expanded="true" />
-            <element signature="e#3837#4248#2" expanded="true" />
-            <element signature="e#4372#6763#2" expanded="true" />
-            <element signature="e#6911#9302#2" expanded="true" />
+            <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/addtohomescreen.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
+        <state line="2" column="0" selection-start="126" selection-end="126" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/addtohomescreen.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="13" selection-start="1750" selection-end="1750" vertical-scroll-proportion="0.47971782">
-          <folding />
+        <state line="7" column="41" selection-start="157" selection-end="157" vertical-scroll-proportion="0.1891892">
+          <folding>
+            <element signature="e#1456#2807#2" expanded="true" />
+            <element signature="e#3838#4249#2" expanded="true" />
+            <element signature="e#4373#6764#2" expanded="true" />
+            <element signature="e#6912#9303#2" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -1,4 +1,4 @@
-
+/* Add to Homescreen v3.0.7 ~ (c) 2014 Matteo Spinelli ~ @license: http://cubiq.org/license */
 (function (window, document) {
 
 // Check if document is loaded, needed by autostart
@@ -593,10 +593,3 @@
     window.addToHomescreen = ath;
 
 })(window, document);
-/**
- * Created with JetBrains RubyMine.
- * User: Joaquin
- * Date: 19-06-14
- * Time: 13:43
- * To change this template use File | Settings | File Templates.
- */
