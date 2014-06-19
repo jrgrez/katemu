@@ -50,19 +50,5 @@ $(document).ready( function() {
             }
 
 
-(function(){
-    if (!window.navigator.standalone) {
-        var meta = document.createElement("meta");
-        meta.setAttribute("name", "apple-mobile-web-app-status-bar-style");
-        meta.setAttribute("content", "white-translucent");
-        var head = document.getElementsByTagName("head")[0];
-        head.appendChild(meta);
-    }
-}());
 
-$('#example').handsontable({
-    data: $data,
-    minSpareRows: 1,
-    colHeaders: true,
-    contextMenu: true
-});
+
