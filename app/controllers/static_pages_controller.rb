@@ -16,5 +16,9 @@ class StaticPagesController < ApplicationController
 
   end
 
+  def inventario
+
+  end
+
 
 end

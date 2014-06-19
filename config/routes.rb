@@ -5,7 +5,8 @@ Katemu::Application.routes.draw do
   match '/home', to: 'static_pages#home', via: 'get'
   match '/form',   to: 'static_pages#form',   via: 'get'
   match '/help', to: 'static_pages#help', via: 'get'
-  match '/personal', to:'static_pages#personal', via: 'get'
+  match '/personal' , to:'static_pages#personal', via: 'get'
+  match '/inventario', to: 'static_pages#inventario', via: 'get'
 
   match '/docs', to: 'doclist#all', via:'get', :controller => 'doclist', :action=>'all'
 
@@ -14,6 +15,7 @@ Katemu::Application.routes.draw do
   match '/signout', to: 'sessions#destroy', via:'get', as:'signout'
   resources :sessions, only: [:create, :destroy]
   resource :home, only: [:show]
+
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
