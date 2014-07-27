@@ -11,7 +11,29 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140606152504) do
+ActiveRecord::Schema.define(version: 20140701214701) do
+
+  create_table "empleados", force: true do |t|
+    t.string   "nombre"
+    t.string   "apellidopaterno"
+    t.string   "apellidomaterno"
+    t.string   "rut"
+    t.string   "direccion"
+    t.string   "telefono"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "imports", force: true do |t|
+    t.string   "datatype"
+    t.integer  "processed"
+    t.integer  "default"
+    t.string   "csv_file_name"
+    t.string   "csv_content_type"
+    t.integer  "csv_file_size"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
   create_table "users", force: true do |t|
     t.string   "provider"

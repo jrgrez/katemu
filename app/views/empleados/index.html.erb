@@ -1,0 +1,49 @@
+<%= provide(:title,"Empleados") %>
+
+<h4>Empleados</h4>
+
+<table class="table table-hover">
+  <thead>
+    <tr>
+      <th>Nombre</th>
+      <th>Apellido Paterno</th>
+      <th>Apellido Materno</th>
+      <th>Rut</th>
+      <th>Dirección</th>
+      <th>Teléfono</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @empleados.each do |empleado| %>
+      <tr>
+        <td><%= empleado.nombre %></td>
+        <td><%= empleado.apellidopaterno %></td>
+        <td><%= empleado.apellidomaterno %></td>
+        <td><%= empleado.rut %></td>
+        <td><%= empleado.direccion %></td>
+        <td><%= empleado.telefono %></td>
+        <td><%= link_to 'Show', empleado %></td>
+        <td><%= link_to 'Edit', edit_empleado_path(empleado) %></td>
+        <td><%= link_to 'Destroy', empleado, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<button type="button" class="btn btn-primary btn-lg"><%= link_to 'Nuevo Empleado', new_empleado_path %></button>
+<button type="button" class="btn btn-primary btn-lg"><%= link_to 'Importar'%></button>
+<h2>Importar Empleados</h2>
+<%= form_tag import_empleados_path, multipart: true do %>
+    <%= file_field_tag :file%>
+    <%= submit_tag "Importar" %>
+<% end %>
+
+
+
+

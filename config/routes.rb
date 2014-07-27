@@ -1,5 +1,7 @@
 Katemu::Application.routes.draw do
 
+  resources :empleados
+
   get "users/new"
   root 'static_pages#home'
   match '/home', to: 'static_pages#home', via: 'get'
@@ -13,6 +15,15 @@ Katemu::Application.routes.draw do
   match '/signout', to: 'sessions#destroy', via:'get', as:'signout'
   resources :sessions, only: [:create, :destroy]
   resource :home, only: [:show]
+
+  resources :empleados do
+    collection { post :import }
+  end
+
+
+
+
+
 
 
   # The priority is based upon order of creation: first created -> highest priority.

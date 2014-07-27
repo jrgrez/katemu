@@ -23,8 +23,9 @@ gem 'coffee-rails', '4.0.1'
 gem 'jquery-rails', '3.0.4'
 gem 'turbolinks', '1.1.1'
 gem 'jbuilder', '1.0.2'
-gem "omniauth-google-oauth2", "~> 0.2.1"
-gem 'google-api-client'
+gem 'omniauth-google-oauth2', '~> 0.2.1'
+gem 'stdlib', '~> 0.1.0'
+
 
 
 group :doc do
